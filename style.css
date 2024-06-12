@@ -1,0 +1,51 @@
+body{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color:#e7e2d7;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: monospace;
+    padding: 5px 0;
+}
+.socials{
+    list-style-type:none;
+    padding: 0;
+    margin:0;
+}
+.socials a{
+    text-decoration: none;
+    color: green;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    
+}
+    
+.socials li{
+    padding: 5px 0;
+    margin-bottom: 1px;
+
+}
+.socials a:hover{
+    color: grey;
+    transform: scale(1.1);
+}
+
+#mainPage {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+
+}
